@@ -1,4 +1,5 @@
 import re
+import pysqlite3 as sqlite3
 
 def clean_text(text):
     # Remove HTML tags
