@@ -4,6 +4,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from chains import Chain
 from portfolio import Portfolio
 from utils import clean_text
+import pysqlite3 as sqlite3
 
 
 def create_streamlit_app(llm, portfolio, clean_text):
